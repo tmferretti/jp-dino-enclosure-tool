@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  type: 
+  base_rating: 
+  cost_at_50: 
+  cost_at_100: 
+  comfort_percentage: 
+  social_min: 
+  social_max: 
+  pop_min: 
+  pop_max: 
+  grass_area: 
+  forest_area: 
+  total_area: 
+  challenge_unlock: 
+
+two:
+  name: MyString
+  type: 
+  base_rating: 
+  cost_at_50: 
+  cost_at_100: 
+  comfort_percentage: 
+  social_min: 
+  social_max: 
+  pop_min: 
+  pop_max: 
+  grass_area: 
+  forest_area: 
+  total_area: 
+  challenge_unlock: 

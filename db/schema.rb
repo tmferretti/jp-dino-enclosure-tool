@@ -10,9 +10,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2019_01_03_163354) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "dinosaurs", force: :cascade do |t|
+    t.string "name"
+    t.string "type"
+    t.integer "base_rating"
+    t.integer "cost_at_50"
+    t.integer "cost_at_100"
+    t.integer "comfort_percentage"
+    t.integer "social_min"
+    t.integer "social_max"
+    t.integer "pop_min"
+    t.integer "pop_max"
+    t.integer "grass_area"
+    t.integer "forest_area"
+    t.integer "total_area"
+    t.integer "challenge_unlock"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 end
